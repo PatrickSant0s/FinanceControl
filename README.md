@@ -52,6 +52,9 @@ Clone o repositório:
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 
+Para utiilizar o banco de dados JSON SERVER, utilizar :
+npx json-server server.json
+
 
 Instale as dependências:
 npm install
