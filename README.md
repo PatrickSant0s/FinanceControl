@@ -69,3 +69,5 @@ Desenvolvido por Patrick Santos — Fullstack Developer apaixonado por soluçõe
 
 ##📌 Status do Projeto
 ✅ Finalizado — melhorias e novas ideias podem ser incorporadas futuramente
+![controllfinance](https://github.com/user-attachments/assets/cbed3dc6-8e5c-494f-a7b1-064697a60261)
+
