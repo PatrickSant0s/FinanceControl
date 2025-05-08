@@ -42,7 +42,7 @@ npx json-server server.json
 npm start
 
 
-📊 Como Funciona
+##📊 Como Funciona
 A aplicação é composta por três seções principais:
 
 Cadastro de Transações: Modal para adicionar novas transações com validação
@@ -51,7 +51,7 @@ Tabela de Transações: Exibição dinâmica com filtro por descrição/categori
 
 Resumo Financeiro: Mostra entradas, saídas e saldo final atualizado em tempo real
 
-🌱 Aprendizados
+##🌱 Aprendizados
 Durante o desenvolvimento deste projeto, foram consolidados conhecimentos como:
 
 Uso da Context API para controle de estado global
@@ -64,8 +64,8 @@ Validação de dados com Zod de forma intuitiva e segura
 
 Integração com API REST fake usando JSON Server
 
-👨‍💻 Autor
+##👨‍💻 Autor
 Desenvolvido por Patrick Santos — Fullstack Developer apaixonado por soluções práticas para o dia a dia
 
-📌 Status do Projeto
+##📌 Status do Projeto
 ✅ Finalizado — melhorias e novas ideias podem ser incorporadas futuramente
