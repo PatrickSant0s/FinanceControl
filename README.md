@@ -1,92 +1,71 @@
+# 💸 Controle de Finanças
 
-💸 Controle de Finanças
+**Controle de Finanças** é uma aplicação web voltada para a organização das finanças pessoais. Com uma interface simples, intuitiva e responsiva, o sistema permite cadastrar, exibir e buscar transações financeiras, facilitando o controle de entradas, saídas e saldo total.
 
-Aplicação web para controle de finanças pessoais, permitindo o cadastro, exibição e busca de transações financeiras. O objetivo é proporcionar uma interface simples e funcional para gerenciar entradas e saídas de dinheiro.
+## 🚀 Funcionalidades
+
+- ✅ **Cadastro de Transações**: Registre entradas ou saídas com descrição, valor e categoria
+- ✅ **Exibição de Transações**: Tabela com todas as transações e seus respectivos detalhes
+- ✅ **Resumo Financeiro**: Total de entradas, saídas e saldo disponível
+- ✅ **Busca de Transações**: Filtragem de transações por descrição ou categoria
+- ✅ **Modal de Cadastro**: Interface amigável e acessível para adicionar novas transações
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/) — Biblioteca JavaScript para interfaces declarativas
+- [TypeScript](https://www.typescriptlang.org/) — Superset de JavaScript com tipagem estática
+- [Styled Components](https://styled-components.com/) — CSS-in-JS para estilização de componentes
+- [Context API](https://reactjs.org/docs/context.html) — Gerenciamento de estado global
+- [React Hook Form](https://react-hook-form.com/) — Gerenciamento de formulários
+- [Zod](https://zod.dev/) — Validação de dados no frontend
+- [Axios](https://axios-http.com/) — Requisições HTTP à API
+- [Phosphor React](https://phosphoricons.com/) — Biblioteca de ícones
+- [Radix UI](https://www.radix-ui.com/) — Componentes acessíveis, como modais
+
+## 📦 Como Rodar o Projeto Localmente
+
+1. Clone o repositório:
 
 
+git clone https://github.com/seu-usuario/controle-financas.git
+cd controle-financas
+
+2. Instale as dependências:
+    npm install
 
 
-🚀 Funcionalidades: 
-
-
-Cadastro de Transações: Registre entradas e saídas de dinheiro com descrição, valor e categoria.
-
-Exibição de Transações: Veja todas as transações registradas em uma tabela com filtro de busca.
-
-Resumo Financeiro: Veja um resumo das entradas, saídas e o saldo total de todas as transações.
-
-Busca de Transações: Busque transações específicas por descrição ou categoria.
-
-Modal de Cadastro: Interface intuitiva para adicionar novas transações.
-
-
-
-
-
-🧰 Tecnologias Utilizadas:
-
-
-
-React: Biblioteca JavaScript para construção da interface.
-
-TypeScript: Tipagem estática para maior segurança no desenvolvimento.
-
-Styled Components: Estilização de componentes usando CSS-in-JS.
-
-Context API: Gerenciamento global de estado para as transações.
-
-React Hook Form: Gerenciamento de formulários de forma simples e eficiente.
-
-Zod: Validação de dados no lado do cliente.
-
-Axios: Comunicação com a API para persistência de dados.
-
-Phosphor-React: Ícones para uma interface mais interativa.
-
-Radix UI: Componente de modal acessível para cadastro de novas transações.
-
-📦 Como Rodar o Projeto Localmente:
-
-Clone o repositório: 
-
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
-
-Para utiilizar o banco de dados JSON SERVER, utilizar :
+3. Inicie o JSON Server para simular o banco de dados:
 npx json-server server.json
 
 
-Instale as dependências:
-npm install
-
-Inicie o servidor de desenvolvimento:
+4. Inicie o servidor de desenvolvimento:
 npm start
 
-🎨 Como Funciona:
 
-A aplicação consiste em duas principais seções:
+📊 Como Funciona
+A aplicação é composta por três seções principais:
 
-Cadastro de Transações: Utilize o modal para cadastrar uma nova transação (entrada ou saída). Cada transação possui uma descrição, categoria, valor e tipo.
+Cadastro de Transações: Modal para adicionar novas transações com validação
 
-Visualização das Transações: As transações são listadas em uma tabela, onde é possível visualizar as descrições, valores, categorias e datas das transações.
+Tabela de Transações: Exibição dinâmica com filtro por descrição/categoria
 
-Resumo Financeiro: Um resumo exibe os totais de entradas, saídas e o saldo atual.
+Resumo Financeiro: Mostra entradas, saídas e saldo final atualizado em tempo real
 
+🌱 Aprendizados
+Durante o desenvolvimento deste projeto, foram consolidados conhecimentos como:
 
+Uso da Context API para controle de estado global
 
+React Hook Form para controle e validação de formulários de forma otimizada
 
+Estilização com Styled Components para componentes reutilizáveis
 
-🌱 Aprendizados:
+Validação de dados com Zod de forma intuitiva e segura
 
+Integração com API REST fake usando JSON Server
 
+👨‍💻 Autor
+Desenvolvido por Patrick Santos — Fullstack Developer apaixonado por soluções práticas para o dia a dia
 
-
-Context API: Utilizada para gerenciar o estado global das transações de forma eficiente.
-
-Formulários com React Hook Form: Facilitou a criação de formulários controlados com validação simples.
-
-Styled Components: Permitiu criar estilos reutilizáveis e de fácil manutenção.
-
-Zod: Utilizado para validação de dados no formulário de uma maneira intuitiva e concisa.
-
-![controllfinance](https://github.com/user-attachments/assets/8e94b360-c004-499f-99a2-604cef2a4439)
+📌 Status do Projeto
+✅ Finalizado — melhorias e novas ideias podem ser incorporadas futuramente
